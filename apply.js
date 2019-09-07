@@ -1,4 +1,4 @@
-Function.prototype.apply = (context, args) => {
+Function.prototype.myApply = (context, args) => {
     if (typeof this !== 'function') {
         throw new TypeError('not a function');
     }
