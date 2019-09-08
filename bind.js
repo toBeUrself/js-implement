@@ -1,3 +1,4 @@
+// 思路：类似call，但返回的是函数
 Function.prototype.myBind = (context, ...rest) => {
     if (typeof this !== 'function') {
         throw new TypeError('not a function');
